@@ -1,0 +1,16 @@
+MSP430-Arduino-PdM-System/
+├── MSP430_Firmware/          # MSP430 data acquisition code
+│   ├── main.c               # Main application
+│   ├── adc.c/.h             # ADC configuration
+│   ├── uart.c/.h            # UART communication
+│   └── timer.c/.h           # Timer configuration
+├── Arduino_Firmware/         # Arduino processing code
+│   ├── PdM_System.ino       # Main Arduino sketch
+│   ├── fft.cpp/.h           # FFT implementation
+│   ├── features.cpp/.h      # Feature extraction
+│   └── knn_classifier.cpp/.h # k-NN classifier
+├── Documentation/
+│   ├── README.md            # Setup instructions
+│   └── wiring_diagram.pdf   # Connection diagram
+└── Libraries/               # Required libraries
+    └── FFT_FixedPoint/      # Fixed-point FFT library
